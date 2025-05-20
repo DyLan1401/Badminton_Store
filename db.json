@@ -1,0 +1,382 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "user@gmail.com",
+      "password": "user123",
+      "name": "Regular User",
+      "role": "user"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Top 10 Badminton Rackets for Beginners",
+      "content": "Choosing the right badminton racket is crucial for beginners. Here are the top 10 rackets that offer the perfect balance of power and control...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-15",
+      "author": "Badminton Expert"
+    },
+    {
+      "id": 2,
+      "title": "Badminton Training Tips for Advanced Players",
+      "content": "Advanced players need to focus on specific techniques and strategies. Here are some professional training tips...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-14",
+      "author": "Pro Coach"
+    },
+    {
+      "id": 3,
+      "title": "The Evolution of Badminton Equipment",
+      "content": "From wooden rackets to carbon fiber, badminton equipment has come a long way. Let's explore the history...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-13",
+      "author": "Sports Historian"
+    },
+    {
+      "id": 4,
+      "title": "Nutrition Guide for Badminton Players",
+      "content": "Proper nutrition is essential for badminton players. Here's a comprehensive guide to what you should eat...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-12",
+      "author": "Sports Nutritionist"
+    },
+    {
+      "id": 5,
+      "title": "Badminton Rules and Regulations",
+      "content": "Understanding the rules of badminton is crucial for both players and fans. Here's a detailed breakdown...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-11",
+      "author": "Referee"
+    },
+    {
+      "id": 6,
+      "title": "Mental Preparation for Badminton Matches",
+      "content": "The mental aspect of badminton is often overlooked. Here's how to prepare your mind for competition...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-10",
+      "author": "Sports Psychologist"
+    },
+    {
+      "id": 7,
+      "title": "Badminton Court Maintenance Guide",
+      "content": "Proper court maintenance ensures the best playing conditions. Here's how to maintain your badminton court...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-09",
+      "author": "Court Manager"
+    },
+    {
+      "id": 8,
+      "title": "Badminton Injury Prevention",
+      "content": "Common injuries in badminton and how to prevent them. Essential reading for all players...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-08",
+      "author": "Sports Doctor"
+    },
+    {
+      "id": 9,
+      "title": "Badminton Tournament Preparation",
+      "content": "How to prepare for your first badminton tournament. A complete guide for beginners...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-07",
+      "author": "Tournament Organizer"
+    },
+    {
+      "id": 10,
+      "title": "Badminton Shoe Selection Guide",
+      "content": "The right shoes can make a huge difference in your game. Here's how to choose the perfect pair...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-06",
+      "author": "Equipment Specialist"
+    },
+    {
+      "id": 11,
+      "title": "Badminton Doubles Strategy",
+      "content": "Master the art of doubles play with these essential strategies and techniques...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-05",
+      "author": "Doubles Champion"
+    },
+    {
+      "id": 12,
+      "title": "Badminton Singles Tactics",
+      "content": "Advanced tactics for singles players. Learn how to dominate your opponent...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-04",
+      "author": "Singles Expert"
+    },
+    {
+      "id": 13,
+      "title": "Badminton Warm-up Exercises",
+      "content": "Essential warm-up exercises for badminton players. Prevent injuries and improve performance...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-03",
+      "author": "Fitness Trainer"
+    },
+    {
+      "id": 14,
+      "title": "Badminton String Tension Guide",
+      "content": "Understanding string tension and its impact on your game. A comprehensive guide...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-02",
+      "author": "Stringing Expert"
+    },
+    {
+      "id": 15,
+      "title": "Badminton Footwork Drills",
+      "content": "Improve your footwork with these effective drills. Essential for all skill levels...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-03-01",
+      "author": "Footwork Coach"
+    },
+    {
+      "id": 16,
+      "title": "Badminton Grip Techniques",
+      "content": "Master different grip techniques for various shots. A detailed guide...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-02-29",
+      "author": "Technique Specialist"
+    },
+    {
+      "id": 17,
+      "title": "Badminton Serve Mastery",
+      "content": "Learn the art of serving in badminton. Different types and when to use them...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-02-28",
+      "author": "Serve Expert"
+    },
+    {
+      "id": 18,
+      "title": "Badminton Smash Techniques",
+      "content": "Master the powerful smash shot. Techniques and tips for maximum impact...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-02-27",
+      "author": "Power Player"
+    },
+    {
+      "id": 19,
+      "title": "Badminton Drop Shot Guide",
+      "content": "Perfect your drop shots with these expert tips. Essential for tactical play...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-02-26",
+      "author": "Tactical Coach"
+    },
+    {
+      "id": 20,
+      "title": "Badminton Net Play Skills",
+      "content": "Master the art of net play. Essential skills for close-range shots...",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "date": "2024-02-25",
+      "author": "Net Play Specialist"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Yonex Astrox 99",
+      "price": 299.99,
+      "description": "Professional badminton racket with powerful smash capability",
+      "category": "Rackets",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 15,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Li-Ning G-Force 9000",
+      "price": 249.99,
+      "description": "High-performance racket for aggressive players",
+      "category": "Rackets",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 20,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Victor Thruster K",
+      "price": 279.99,
+      "description": "Balanced racket for all-around play",
+      "category": "Rackets",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 12,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "Yonex Aerus 3",
+      "price": 199.99,
+      "description": "Lightweight racket for speed and control",
+      "category": "Rackets",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 18,
+      "rating": 4.5
+    },
+    {
+      "id": 5,
+      "name": "Yonex BG80 String",
+      "price": 19.99,
+      "description": "High-durability string for power players",
+      "category": "Strings",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 50,
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "name": "Li-Ning A+ 2000",
+      "price": 159.99,
+      "description": "Entry-level racket with good performance",
+      "category": "Rackets",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 25,
+      "rating": 4.3
+    },
+    {
+      "id": 7,
+      "name": "Yonex SHB-65Z2",
+      "price": 129.99,
+      "description": "Professional badminton shoes with excellent grip",
+      "category": "Shoes",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 30,
+      "rating": 4.7
+    },
+    {
+      "id": 8,
+      "name": "Victor C-9507",
+      "price": 89.99,
+      "description": "Comfortable badminton shoes for beginners",
+      "category": "Shoes",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 40,
+      "rating": 4.4
+    },
+    {
+      "id": 9,
+      "name": "Yonex Aerus 2",
+      "price": 179.99,
+      "description": "Lightweight shoes for quick movements",
+      "category": "Shoes",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 22,
+      "rating": 4.6
+    },
+    {
+      "id": 10,
+      "name": "Li-Ning G-Force 8000",
+      "price": 229.99,
+      "description": "Professional racket for power players",
+      "category": "Rackets",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 15,
+      "rating": 4.7
+    },
+    {
+      "id": 11,
+      "name": "Yonex BG66 Ultimax",
+      "price": 24.99,
+      "description": "Thin string for maximum control",
+      "category": "Strings",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 45,
+      "rating": 4.8
+    },
+    {
+      "id": 12,
+      "name": "Victor JS-10",
+      "price": 269.99,
+      "description": "Professional racket for speed players",
+      "category": "Rackets",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 10,
+      "rating": 4.9
+    },
+    {
+      "id": 13,
+      "name": "Yonex SHB-01Z",
+      "price": 149.99,
+      "description": "Premium badminton shoes with maximum comfort",
+      "category": "Shoes",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 20,
+      "rating": 4.8
+    },
+    {
+      "id": 14,
+      "name": "Li-Ning Windstorm 72",
+      "price": 189.99,
+      "description": "Lightweight racket for control players",
+      "category": "Rackets",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 18,
+      "rating": 4.5
+    },
+    {
+      "id": 15,
+      "name": "Yonex BG95",
+      "price": 21.99,
+      "description": "Durable string for all-around play",
+      "category": "Strings",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 35,
+      "rating": 4.6
+    },
+    {
+      "id": 16,
+      "name": "Victor Thruster F",
+      "price": 259.99,
+      "description": "Professional racket for aggressive players",
+      "category": "Rackets",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 12,
+      "rating": 4.7
+    },
+    {
+      "id": 17,
+      "name": "Yonex SHB-65Z",
+      "price": 139.99,
+      "description": "Professional badminton shoes with stability",
+      "category": "Shoes",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 25,
+      "rating": 4.6
+    },
+    {
+      "id": 18,
+      "name": "Li-Ning G-Force 7000",
+      "price": 209.99,
+      "description": "Professional racket for control players",
+      "category": "Rackets",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 15,
+      "rating": 4.5
+    },
+    {
+      "id": 19,
+      "name": "Yonex BG85",
+      "price": 22.99,
+      "description": "Control-oriented string for precision players",
+      "category": "Strings",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 40,
+      "rating": 4.7
+    },
+    {
+      "id": 20,
+      "name": "Victor SX-80",
+      "price": 239.99,
+      "description": "Professional racket for all-around play",
+      "category": "Rackets",
+      "image": "https://images.unsplash.com/photo-1611250185911-65eec5b1b1e9",
+      "stock": 14,
+      "rating": 4.8
+    }
+  ]
+} 

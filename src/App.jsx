@@ -1,17 +1,15 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import AppRoutes from './routes/AppRoutes';
-import Navigation from './components/Navigation';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="min-h-screen bg-gray-100">
-        <Navigation />
-        <main className="container mx-auto py-4">
-          <AppRoutes />
-        </main>
+    <Router>
+      <div className="pt-16">
+        <Navbar />
+        <AppRoutes />
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

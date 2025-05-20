@@ -2,50 +2,35 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Home from "../pages/Home";
-import ManageUsers from "../pages/Admin/ManageUsers";
-import ManageOrders from "../pages/Admin/ManageOrders";
-import ManageProducts from "../pages/Admin/ManageProducts";
+import ProductDetail from "../pages/ProductDetail";
+import Products from "../pages/Products";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
-import ProductDetail from "../pages/ProductDetail";
-import ProductList from "../pages/ProductList";
-import Dashboard from "../pages/Admin/Dashboard";
+import NotFound from "../pages/NotFound";
+import Blog from "../pages/Blogs";
+import BlogDetail from "../pages/BlogDetail";
+import Contact from "../pages/Contact";
+import Wishlist from '../pages/Wishlist';
 
-
-export default function AppRoutes() {
+function AppRoutes() {
     return (
         <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
 
-            {/* Public routes */}
             <Route path="/" element={<Home />} />
-
             <Route path="/product/:id" element={<ProductDetail />} />
-            <Route path="/product-list" element={<ProductList />} />
+            <Route path="/products" element={<Products />}/>
+            <Route path="/cart" element={<Cart />} />
 
-            {/* Puser routes */}
-            <Route path="/cart" element={
-                <Cart />
-
-            } />
-            <Route path="/checkout" element={
-                <Checkout />
-            } />
-
-            {/*  admin routes */}
-            <Route path="/admin/dashboard" element={
-                <Dashboard />
-            } />
-            <Route path="/admin/manage-users" element={
-                <ManageUsers />
-            } />
-            <Route path="/admin/manage-orders" element={
-                <ManageOrders />
-            } />
-            <Route path="/admin/manage-products" element={
-                <ManageProducts />
-            } />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/NotFound" element={<NotFound />} />
+            <Route path="/blogs" element={<Blog />} />
+            <Route path="/blogs/:id" element={<BlogDetail />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/wishlist" element={<Wishlist />} />
         </Routes>
     );
 }
+
+export default AppRoutes;
